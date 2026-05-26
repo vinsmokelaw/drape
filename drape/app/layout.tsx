@@ -5,6 +5,9 @@ import { Navbar } from "@/components/navbar";
 export const metadata: Metadata = {
   title: "Drape",
   description: "Buy the best drapes online with Drape - your one-stop shop for stylish and affordable window treatments.",
+  icons: {
+    icon: "/favicon.ico", // This tells Next.js where your icon is
+  },
 };
 
 export default function RootLayout({
