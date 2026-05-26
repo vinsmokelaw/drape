@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd drape && npm run build",
+  "outputDirectory": "drape/.next",
+  "installCommand": "cd drape && npm install",
+  "rootDirectory": "drape"
+}
